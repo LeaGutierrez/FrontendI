@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 1024px;
+}
+
+header { 
+  display: inline-block;
+  box-sizing: 38px;
+  width: 1024px;
+ }
+
+body header div {
+
+   background-color: #1CD1B0;
+   color: black;
+   font-size: 15px;
+   font-weight: normal;
+   font-weight: 400;
+   display: block;
+   padding: 10px 0px 10px 10px;
+   top: 0px;
+   width: 1024px;
+ }
+
+ h1 {
+  font-size: 40px;
+  line-height: 48px;
+  background: #00669F;
+  box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+  width: 1024px;
+  padding: 28px 0px 26px 28px;
+  top: 38px;
+ margin:0px;
+   }
+main {
+height: auto;
+}
+
+section {
+    margin: 150px 20px 150px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: flex-start;
+    flex-wrap:wrap;
+    width: 100%;    
+}
+
+article {
+    padding: 0px;
+    border: 0px solid rgb(126, 125, 125);
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    width: 300px;
+    height: 529px;
+    text-transform: uppercase;
+    background-color: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 35px;
+}
+
+
+.imagenesEtiqueta {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.corazon {
+    position: absolute;                  
+    margin-top: 15px;
+    margin-right: 230px;
+    z-index: 10;
+  }
+
+.avatarCircular {
+    position: relative;
+    bottom: 55px;
+    border-radius: 50%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);    
+  }
+                        
+.textosEtiqueta {
+    position: relative;
+    bottom: 40px;
+    display: flex;
+    flex-direction: column;                        
+    align-items: center;
+   }
+
+.nombreHeroe {
+    text-align: center;
+    font-weight: 400;
+    font-size: 30px;
+    }
+
+.descripcion {
+    text-align: left;
+    font-size: 16px;
+    width: 267px;
+    height: 113px;
+    padding-left: 16px;
+    padding-right: 17px;
+    padding-top: 10px ;
+    text-transform: none;
+    }
+
+.boton {
+    background-color:#00669F ;
+    padding: 15px 37px;
+    width: 140px;
+    height: 48px;
+    color: white;
+    font-size: 15px;
+    text-transform: none;
+    position: relative;
+    align-items: center;
+    top: 45px;
+    border-radius: 4px;
+   }
+
+footer {
+    background-color: #00669F;
+    color: #FFF9F9;
+    font-size: 15px;
+    font-weight: 400;
+
+    padding: 16px 0px 16px 16px;
+    display: inline-block;
+    /* border: 1px red solid; */
+    position:relative;
+
+    width: 1024px;
+}
+
+footer span {
+width: 350px;
+align:center;
+}

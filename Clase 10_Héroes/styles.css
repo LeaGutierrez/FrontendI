@@ -5,13 +5,13 @@
 
 body {
     font-family: 'Roboto', 'Open Sans', 'Helvetica Neue', sans-serif;
-    width: 1024px;
+    width: 100%;
 }
 
 header { 
   display: inline-block;
   box-sizing: 38px;
-  width: 1024px;
+  width: 100%;
  }
 
 body header div {
@@ -24,7 +24,7 @@ body header div {
    display: block;
    padding: 10px 0px 10px 10px;
    top: 0px;
-   width: 1024px;
+   width: 100%;
  }
 
  h1 {
@@ -32,10 +32,9 @@ body header div {
   line-height: 48px;
   background: #00669F;
   box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
-  width: 1024px;
   padding: 28px 0px 26px 28px;
   top: 38px;
- margin:0px;
+  margin:0px;
    }
 main {
 height: auto;
@@ -52,6 +51,7 @@ section {
 }
 
 article {
+    position: relative;
     padding: 0px;
     border: 0px solid rgb(126, 125, 125);
     display: flex;
@@ -136,7 +136,7 @@ footer {
     /* border: 1px red solid; */
     position:relative;
 
-    width: 1024px;
+    width: 100%;
 }
 
 footer span {
